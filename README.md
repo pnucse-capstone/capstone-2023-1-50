@@ -57,17 +57,19 @@
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Scikitlearn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
 
 
-1️⃣ 해당 깃허브 repo를 clone 받고, google STT API Key, NAVER CLOVA OCR API KEY도 발급 받습니다.
+1️⃣ 해당 깃허브 repo를 clone 받고, google STT API Key, NAVER CLOVA OCR API KEY를 발급 받습니다.
 
 2️⃣ Terminal에서 graduate 폴더로 이동하고 npm install 명령어를 통해 React 실행을 위해 필요한 패키지를 다운받습니다.
 
 3️⃣ Terminal에서 npm start 명령어를 통해 React를 실행합니다.
 
-4️⃣ Terminal에서 spam-filtering-back 폴더로 이동하고 test.py 파일을 실행해 Flask를 실행합니다. 이 때, google STT를 사용하기 위해 가상환경을 통해 실행해야 합니다 !
+4️⃣ Terminal에서 spam-filtering-back 폴더로 이동하고 test.py 파일을 실행해 Flask를 실행합니다.
 
-5️⃣ 모든 준비가 끝났습니다 ! 👏
+5️⃣ 이때 google STT를 사용하기 위해 가상환경을 통해 실행해야 합니다 ! (python 3.10 version, 추가 라이브러리들도 설치 필요) 
 
-6️⃣ 텍스트, 이미지, 음성 중 테스트 하고 싶은 것을 골라 스팸인지 아닌지 확인해보세요 !
+6️⃣ 모든 준비가 끝났습니다 ! 👏
+
+7️⃣ 텍스트, 이미지, 음성 중 테스트 하고 싶은 것을 골라 스팸인지 아닌지 확인해보세요 !
 
 
 
