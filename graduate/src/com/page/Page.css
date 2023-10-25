@@ -1,0 +1,361 @@
+.textContainer {
+    --angle: 0deg;
+    width: 50vmin;
+    height: 50vmin;
+    border: 5px solid transparent;
+    border-radius: 24px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(var(--angle),
+            #12c2e9,
+            #c471ed) border-box;
+    animation: 5s rotate linear infinite;
+}
+
+.imageContainer {
+    --angle: 0deg;
+    width: 50vmin;
+    height: 50vmin;
+    border: 5px solid transparent;
+    border-radius: 24px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(var(--angle),
+            #FF5F6D,
+            #FFC371) border-box;
+    animation: 5s rotate linear infinite;
+}
+
+.voiceContainer {
+    --angle: 0deg;
+    width: 50vmin;
+    height: 50vmin;
+    border: 5px solid transparent;
+    border-radius: 24px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(var(--angle),
+            #1D976C,
+            #93F9B9 
+            ) border-box;
+    animation: 5s rotate linear infinite;
+}
+/* #1D976C,
+#93F9B9 */
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+.textTestBtn {
+    width: 150px;
+    height: 50px;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #6f6cde;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.textTestBtn:hover {
+
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+        6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #12c2e9;
+
+}
+
+.textTestBtn:active {
+
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+        inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #12c2e9;
+}
+
+
+
+
+
+
+
+
+.imageTestBtn {
+    width: 150px;
+    height: 50px;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #FF5F6D;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.imageTestBtn:hover {
+
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+        6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #FFC371;
+
+}
+
+.imageTestBtn:active {
+
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+        inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #FFC371;
+}
+
+.filebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+
+    line-height: normal;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin : 3vw 0px 0px 0px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #FFC371;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.filebox input[type="file"] {
+    /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+
+
+
+
+
+
+.voiceTestBtn {
+    width: 150px;
+    height: 50px;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #93F9B9;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.voiceTestBtn:hover {
+    margin: 10px 0px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+        6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #1D976C;
+
+}
+
+.voiceTestBtn:active {
+
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+        inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #1D976C;
+}
+
+.vfilebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+
+    line-height: normal;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #1D976C;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.vfilebox input[type="file"] {
+    /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.voiceRecBtn{
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+
+    line-height: normal;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin : 1vw 0px 0px 4vw;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #1D976C;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.voiceStopBtn{
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+
+    line-height: normal;
+    background: #f7f5f5;
+    position: relative;
+    /* margin-bottom: 25px; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin : 1vw 0px 0px 0px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #6fDB9E;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.recording-animation {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+0%, 100% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.2);
+}
+}
+
+.progress {
+    appearance: none;
+}
+.progress::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius: 8px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+.progress::-webkit-progress-value {
+    border-radius: 8px;
+    background: -webkit-linear-gradient(to right, #73d797, #3ea87d);
+    background: linear-gradient(to right, #73d797, #3ea87d);
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollBar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .scrollBar::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+  }
+  .scrollBar::-webkit-scrollbar-button {
+    width: 0;
+    height: 5;
+  }

@@ -1,0 +1,23 @@
+{
+	"version": "V2",
+	"requestId": "8a00c029-c6ec-4bb6-9578-1ab35ca9bcc3",
+	"timestamp": 1697291994502,
+	"images": [
+		{
+			"uid": "dca68234dc3d4fb9839c60995b63efda",
+			"name": "demo",
+			"inferResult": "SUCCESS",
+			"message": "SUCCESS",
+			"validationResult": {
+				"result": "NO_REQUESTED"
+			},
+			"convertedImageInfo": {
+				"width": 785,
+				"height": 563,
+				"pageIndex": 0,
+				"longImage": false
+			},
+			"fields": []
+		}
+	]
+}

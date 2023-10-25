@@ -1,0 +1,18 @@
+.container {
+    display : flex;
+    height : 90vh;
+    font-family: 'GmarketSansMedium';
+}
+
+.others {
+    flex : 5.5;
+    /* background-color: rgb(233, 232, 231); */
+    background-color: none;
+    margin: 0px 0px 0px 0px;
+    overflow-y: scroll;
+    font-family: 'GmarketSansMedium';
+  
+}
+.others::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,53 @@
+.fadein{
+  font-size: medium;
+  position: relative;
+  overflow: hidden;
+  animation: fadein 2.5s forwards;
+  visibility: hidden;
+
+}
+
+
+@keyframes fadein{
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+}
+
+.gradiHam{
+  background: linear-gradient(to right top, #163b86, #65a3ff); 
+  color: transparent;
+  -webkit-background-clip: text;
+  
+}
+.gradiSpam{
+  background:   linear-gradient(to right top, #861657, #ffa69e);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.gradiSVM{
+background: linear-gradient(to left top, #9b8a5a, #ffa365); 
+color: transparent;
+-webkit-background-clip: text;
+}
+.gradiNB{
+background: linear-gradient(to left top, #70843d, #d2e670); 
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradiGraph{
+background: linear-gradient(to left top, #ca6161, #442fde); 
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+
