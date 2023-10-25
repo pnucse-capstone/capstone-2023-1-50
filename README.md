@@ -5,7 +5,7 @@
 
 
 
-## ✏️ 프로젝트 소개
+# ✏️ 프로젝트 소개
 
 ### < **Multimodal Based Spam Filtering Platform** >
 <br>
@@ -25,7 +25,7 @@
 
 <br>
 
-## 🫶 팀 소개
+# 🫶 팀 소개
 
 
 | 이름 | 이메일| 역할|
@@ -37,7 +37,7 @@
 
 <br>
 
-## 🗃️ 구성도  
+# 🗃️ 구성도  
 <br>
 
 ![flow_spam](https://github.com/pnucse-capstone/capstone-2023-1-50/assets/78164014/fd32f5df-f5c9-418c-b6aa-25d5335dcaad)
@@ -46,12 +46,12 @@
 
 <br>
 
-## 📺 소개 및 시연 영상
+# 📺 소개 및 시연 영상
 프로젝트 소개나 시연 영상을 넣으세요.
 
 <br>
 
-## ❓ 사용법  
+# ❓ 사용법  
 <br>
 
 <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=Flask&logoColor=white"/> <img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Scikitlearn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
