@@ -39,6 +39,7 @@
 
 ## 🗃️ 구성도  
 <br>
+
 ![flow_spam](https://github.com/pnucse-capstone/capstone-2023-1-50/assets/78164014/fd32f5df-f5c9-418c-b6aa-25d5335dcaad)
 
 
