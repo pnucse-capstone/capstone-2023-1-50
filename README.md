@@ -32,13 +32,13 @@
 | --- | --- | ---|
 | [천영채](https://github.com/chaee813)  | chaee813@gmail.com | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
 | [박혜경](https://github.com/HyeGyoungPark)    | hyegp16@gmail.com | 데이터 수집, SVM 모델, 이미지 캡션 생성 모델|
-| [이승현](https://github.com/pigglehyun) | sarah0661@pusan.ac.kr | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
+| [이승현](https://github.com/pigglehyun) | sarah0661@pusan.ac.kr | NB 모델, React 플랫폼 개발, Flask & React 연동 및 Refactoring|
 | 공동 |  | 데이터 전처리 및 학습 공부, Google STT & Clova OCR 등 데이터 변환을 위한 기술 조사 및 공부  |
 
 <br>
 
 ## 🗃️ 구성도  
-프로젝트 결과물의 개괄적인 동작을 파악할 수 있는 이미지와 글을 작성하세요.
+<br>
 ![flow_spam](https://github.com/pnucse-capstone/capstone-2023-1-50/assets/78164014/fd32f5df-f5c9-418c-b6aa-25d5335dcaad)
 
 
