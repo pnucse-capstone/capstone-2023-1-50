@@ -30,9 +30,9 @@
 
 | 이름 | 이메일| 역할|
 | --- | --- | ---|
-| 천영채 (조장) | chaee813@gmail.com | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
-| 박혜경 | hyegp16@gmail.com | 데이터 수집, SVM 모델, 이미지 캡션 생성 모델|
-| 이승현 | sarah0661@pusan.ac.kr | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
+| [천영채](https://github.com/chaee813)  | chaee813@gmail.com | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
+| [박혜경](https://github.com/HyeGyoungPark)    | hyegp16@gmail.com | 데이터 수집, SVM 모델, 이미지 캡션 생성 모델|
+| [이승현](https://github.com/pigglehyun) | sarah0661@pusan.ac.kr | Google STT를 이용한 음성데이터 변환, Clova OCR을 이용한 이미지 데이터 변환, Flask 서버 개발|
 | 공동 |  | 데이터 전처리 및 학습 공부, Google STT & Clova OCR 등 데이터 변환을 위한 기술 조사 및 공부  |
 
 <br>
