@@ -47,7 +47,7 @@
 <br>
 
 # 📺 소개 및 시연 영상
-프로젝트 소개나 시연 영상을 넣으세요.
+https://youtu.be/ZSiX3GsChDY?si=4Tinkjop-bkiN2Vv
 
 <br>
 
